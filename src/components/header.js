@@ -4,7 +4,7 @@ import Link from './link';
 function Header() {
 
   useEffect(() => {
-    document.title = window.Config.SiteName;
+    document.title = '站点监控';
   }, []);
 
   return (

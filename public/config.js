@@ -1,36 +1,32 @@
 window.Config = {
 
   // 显示标题
-  SiteName: 'Public Status',
+  SiteName: '稚的小窝的站点监控',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'm784488775-dd1ad84b209c05f8e185c33e',
-    'm784490063-7b5da437e7f1e0d67613714d',
-    'm784497419-de55aa09902ccb3ab22d548a',
-    'm784496436-71a4bf7b1e3bdf7756be131b',
+    'm794791701-ee01b1156f928bcaeeaf17fc',//博客主站点
+    'm794791735-b4b65b3cb465dbced89edb25',//博客评论系统
+    'm794791712-c2078fa87e7895a31a563d84',//我的网盘
+    'm794791719-2859acf06027d0ccbf7c3a36',//导航站点
+    'm794791745-2e780d37139622d8698b319f',//图片上传服务
+    'm794791891-0401f9c811c8d7a27b7a3473',//群晖Nas
   ],
 
   // 日志天数
-  CountDays: 90,
+  CountDays: 60,
 
   // 是否显示检测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 导航栏菜单
   Navi: [
-    {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
-    },
+    
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      url: 'https://github.com/aboyzy'
     },
-    {
-      text: 'Blog',
-      url: 'https://abo.xyz/'
-    },
+    
   ],
 };
